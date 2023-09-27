@@ -118,7 +118,7 @@ body {
 .text-reflect, .text-reflect:before, .text-reflect span {
     display: block;
     margin: 0;
-    padding: 0;
+    padding: ;
   }
   
   .text-reflect, .text-reflect:before, .text-reflect:after {
@@ -170,10 +170,10 @@ body {
 
     } */
     .blob {
-        width: 450px;
-        position: fixed;
-        left: 25px;
-        top: 200px;
+        width: 250px;
+       
+        left: -175px;
+        top: 100px;
     }
     .container {
         display: inline;
@@ -195,5 +195,10 @@ body {
 
     h1, p {
         font-size: 40px;
+        margin: 0;
+    }
+
+    p {
+        padding: 5px;
     }
 }
