@@ -160,7 +160,9 @@ body {
         gap: 0;
         height: fit-content;
     }
-
+    .headertabs {
+        font-size: 20px;
+    }
     .headerstuff {
         text-align: center;
         display: block;
@@ -177,6 +179,7 @@ body {
     .blob {
         width: 300px;
         display: block;
+        align-items: center;
         top: 400px;
     }
     .container {
@@ -195,7 +198,7 @@ body {
     }
     
     .a {
-        font-size: 20px;
+        font-size: 10px;
         padding: 0;
     }
 
