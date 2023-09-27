@@ -158,9 +158,12 @@ body {
     }
 
     .headerstuff {
-        display: inline-block;
-        font-size: 10px;
-        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: ;
+        justify-content: flex-start;
+        
     }
 
     /* .blobsection {
