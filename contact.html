@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,8 +17,13 @@
         </div>
     </header>
 
-    <div class="form">
-        
+    <div class="contact-form">
+        <form method="post" action="contact-form-process.php">
+            <input type="text" name="name" class="feedback-input" placeholder="Name" />
+            <input type="text" name="email" class="feedback-input" placeholder="Email Address" />
+            <textarea name="text" class="feedback-input" placeholder="Message Me!"></textarea>
+            <input type="submit" value="SUBMIT"/>
+        </form>
     </div>
     
 </body>
