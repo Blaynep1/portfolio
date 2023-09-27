@@ -164,6 +164,8 @@ body {
     .headerstuff {
         text-align: center;
         display: block;
+        padding: 0;
+
     }
 
     /* .blobsection {
@@ -187,13 +189,14 @@ body {
 
     .links {
         
-        gap: 25px;
-        margin: 10px;
-        position: absolute;
+        gap: 10px;
+        margin: 0px;
+        /* position: absolute; */
     }
     
     .a {
         font-size: 20px;
+        padding: 0;
     }
 
     h1, p {
