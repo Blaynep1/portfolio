@@ -1,3 +1,7 @@
+
+
+
+
 .blobsection {
     position: relative;
     display: flex;
@@ -144,4 +148,44 @@ body {
     z-index: 2;
   }
  
+@media(max-width:800px) {
+    body {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+        height: fit-content;
+    }
 
+    .headerstuff {
+        display: inline-block;
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    /* .blobsection {
+       display: inline;
+        position: relative;
+     
+
+    } */
+    .blob {
+        width: 450px;
+        position: fixed;
+        left: 25px;
+        top: 200px;
+    }
+    .container {
+        display: inline;
+        position: absolute;
+        top: -30px;
+        left: -110px;
+        padding: 0;
+    }
+
+    .links {
+        gap: 25px;
+        margin: 10px;
+        position: absolute;
+    }
+}
