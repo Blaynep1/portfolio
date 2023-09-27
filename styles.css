@@ -162,10 +162,11 @@ body {
     }
     .headertabs {
         font-size: 20px;
+        text-align: center;
     }
     .headerstuff {
         text-align: center;
-        display: block;
+        display: inline;
         padding: 0;
 
     }
@@ -191,7 +192,7 @@ body {
     }
 
     .links {
-        
+        display: inline;
         gap: 10px;
         margin: 0px;
         /* position: absolute; */
