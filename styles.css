@@ -148,67 +148,50 @@ body {
     z-index: 2;
   }
  
-@media(max-width:800px) {
+@media(max-width:600px) {
 
-    .text-reflect:before {
-        top: 80px;
-    }
     body {
-        width: 600px;
-        margin: 0;
-        padding: 0;
-        gap: 0;
-        height: fit-content;
-    }
-    .headertabs {
-        font-size: 20px;
-        text-align: center;
-    }
-    .headerstuff {
-        text-align: center;
-        display: inline;
-        padding: 0;
-
-    }
-
-    /* .blobsection {
-       display: inline;
-        position: relative;
-     
-
-    } */
-    .blob {
-        width: 300px;
-        display: block;
-        align-items: center;
-        top: 400px;
-    }
-    .container {
         display: flex;
-        position: absolute;
-        top: -30px;
-        left: -110px;
-        padding: 0;
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .headerstuff {
+        display: inline;
+        padding: 10px;
     }
 
     .links {
+        width: 300px;
         display: inline;
-        gap: 10px;
-        margin: 0px;
-        /* position: absolute; */
+        position: relative;
+        left: 19px;
+
     }
-    
-    .a {
-        font-size: 10px;
-        padding: 0;
+
+    .headertabs {
+        font-size: 20px;
+        padding: 5px;
+        display: ;
+    }
+
+    .blob, .blobsection{
+        display: none;
+    }
+
+    .container {
+        width: auto;
+        margin: 0;
+        position: relative;
+        top: 80px;
     }
 
     h1, p {
-        font-size: 40px;
         margin: 0;
     }
 
-    p {
-        padding: 5px;
+    .text-reflect {
+        
     }
 }
