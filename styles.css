@@ -179,7 +179,7 @@ body {
         font-size: 20px;
         padding: 10px;
         display: inline;
-        margin: 10px;
+        margin: 0px;
         white-space: nowrap;
     }
 
@@ -214,9 +214,13 @@ body {
 
     .blob {
         margin: 0;
-        height: auto;  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        /* height: auto;  
         position: absolute;
-        transform: translate(-90px, -50px);
+        transform: translate(-90px, -50px); */
     }
 
 }
