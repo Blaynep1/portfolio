@@ -167,18 +167,20 @@ body {
 
     .links {
         width: 300px;
-        display: flex;
+        display: inline-flex;
         justify-content: center;
         position: relative;
         left: 15px;
-        margin: ;
+        
 
     }
 
     .headertabs {
         font-size: 20px;
-        padding: 5px;
-        display: ;
+        padding: 10px;
+        display: inline;
+        margin: 10px;
+        white-space: nowrap;
     }
 
     .blob, .blobsection{
