@@ -183,9 +183,7 @@ body {
         white-space: nowrap;
     }
 
-    .blob, .blobsection{
-        display: none;
-    }
+  
 
     .container {
         width: auto;
@@ -204,4 +202,21 @@ body {
     .text-reflect {
     
     }
+
+    .blobsection {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        
+    }
+
+    .blob {
+        margin: 0;
+        height: auto;  
+        position: absolute;
+        transform: translate(-90px, -50px);
+    }
+
 }
