@@ -167,18 +167,20 @@ body {
 
     .links {
         width: 300px;
-        display: inline-flex;
+        display: flex;
         justify-content: center;
-        position: relative;
-        left: 15px;
+        align-items: center;
+        
         
 
     }
 
     .headertabs {
         font-size: 20px;
-        padding: 10px;
-        display: inline;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin: 0px;
         white-space: nowrap;
     }
@@ -204,20 +206,17 @@ body {
     }
 
     .blobsection {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: flex-end;
+        display: none;
+       
         
         
     }
 
     .blob {
         margin: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
+        display: none;
+        width: 250px;
+        height: 250px;
         /* height: auto;  
         position: absolute;
         transform: translate(-90px, -50px); */
